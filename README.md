@@ -5,6 +5,6 @@ CVS Timer is a simple Mac OS X status bar app that helps you avoid eye strain fr
 The app resides in a "C" icon on the status bar. You can set the time between breaks or duration of a break by clicking the icon and going to "Preferences."
 
 
-CVS Timer was inspired by [AntiRSI](antirsi.onnlucky.com), an app designed to prevent Repetitive Strain Injury (RSI). I wanted a simpler app tailored more for eye strain (one that doesn't reset when it detects you're not using the mouse/keyboard), so I created this one.
+CVS Timer was inspired by [AntiRSI](http://antirsi.onnlucky.com/), an app designed to prevent Repetitive Strain Injury (RSI). I wanted a simpler app tailored more for eye strain (one that doesn't reset when it detects you're not using the mouse/keyboard), so I created this one.
 
 License: GPLv3
