@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22982B81C557345009311C9 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22982B71C557345009311C9 /* PreferencesViewController.swift */; };
+		C22F67F31B9B4E05000EDB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */; };
+		C22F67F51B9B4E05000EDB4A /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */; };
+		C22F67F71B9B4E05000EDB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22F67F61B9B4E05000EDB4A /* Assets.xcassets */; };
+		C22F68051B9B4E05000EDB4A /* CVS_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F68041B9B4E05000EDB4A /* CVS_TimerTests.swift */; };
+		C22F68101B9B4E05000EDB4A /* CVS_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F680F1B9B4E05000EDB4A /* CVS_TimerUITests.swift */; };
+		C22F681E1B9C76E6000EDB4A /* PauseOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */; };
+		C22F68201B9CACB4000EDB4A /* PauseOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */; };
+		C24B7F8F1BEFC05B00ED6E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B7F8D1BEFC05B00ED6E75 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C22F68011B9B4E05000EDB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22F67E71B9B4E04000EDB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22F67EE1B9B4E04000EDB4A;
+			remoteInfo = "CVS Timer";
+		};
+		C22F680C1B9B4E05000EDB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22F67E71B9B4E04000EDB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22F67EE1B9B4E04000EDB4A;
+			remoteInfo = "CVS Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C22982B71C557345009311C9 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		C22F67EF1B9B4E05000EDB4A /* CVS Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CVS Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		C22F67F61B9B4E05000EDB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22F67FB1B9B4E05000EDB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22F68001B9B4E05000EDB4A /* CVS TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F68041B9B4E05000EDB4A /* CVS_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_TimerTests.swift; sourceTree = "<group>"; };
+		C22F68061B9B4E05000EDB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22F680B1B9B4E05000EDB4A /* CVS TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F680F1B9B4E05000EDB4A /* CVS_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_TimerUITests.swift; sourceTree = "<group>"; };
+		C22F68111B9B4E05000EDB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseOverlayWindow.swift; sourceTree = "<group>"; };
+		C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseOverlayView.swift; sourceTree = "<group>"; };
+		C24B7F8E1BEFC05B00ED6E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22F67EC1B9B4E04000EDB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F67FD1B9B4E05000EDB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F68081B9B4E05000EDB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22F67E61B9B4E04000EDB4A = {
+			isa = PBXGroup;
+			children = (
+				C22F67F11B9B4E05000EDB4A /* CVS Timer */,
+				C22F68031B9B4E05000EDB4A /* CVS TimerTests */,
+				C22F680E1B9B4E05000EDB4A /* CVS TimerUITests */,
+				C22F67F01B9B4E05000EDB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22F67F01B9B4E05000EDB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22F67EF1B9B4E05000EDB4A /* CVS Timer.app */,
+				C22F68001B9B4E05000EDB4A /* CVS TimerTests.xctest */,
+				C22F680B1B9B4E05000EDB4A /* CVS TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22F67F11B9B4E05000EDB4A /* CVS Timer */ = {
+			isa = PBXGroup;
+			children = (
+				C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */,
+				C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */,
+				C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */,
+				C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */,
+				C22982B71C557345009311C9 /* PreferencesViewController.swift */,
+				C22F67F61B9B4E05000EDB4A /* Assets.xcassets */,
+				C24B7F8D1BEFC05B00ED6E75 /* Main.storyboard */,
+				C22F67FB1B9B4E05000EDB4A /* Info.plist */,
+			);
+			path = "CVS Timer";
+			sourceTree = "<group>";
+		};
+		C22F68031B9B4E05000EDB4A /* CVS TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22F68041B9B4E05000EDB4A /* CVS_TimerTests.swift */,
+				C22F68061B9B4E05000EDB4A /* Info.plist */,
+			);
+			path = "CVS TimerTests";
+			sourceTree = "<group>";
+		};
+		C22F680E1B9B4E05000EDB4A /* CVS TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C22F680F1B9B4E05000EDB4A /* CVS_TimerUITests.swift */,
+				C22F68111B9B4E05000EDB4A /* Info.plist */,
+			);
+			path = "CVS TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22F67EE1B9B4E04000EDB4A /* CVS Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22F68141B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS Timer" */;
+			buildPhases = (
+				C22F67EB1B9B4E04000EDB4A /* Sources */,
+				C22F67EC1B9B4E04000EDB4A /* Frameworks */,
+				C22F67ED1B9B4E04000EDB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CVS Timer";
+			productName = "CVS Timer";
+			productReference = C22F67EF1B9B4E05000EDB4A /* CVS Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C22F67FF1B9B4E05000EDB4A /* CVS TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22F68171B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS TimerTests" */;
+			buildPhases = (
+				C22F67FC1B9B4E05000EDB4A /* Sources */,
+				C22F67FD1B9B4E05000EDB4A /* Frameworks */,
+				C22F67FE1B9B4E05000EDB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22F68021B9B4E05000EDB4A /* PBXTargetDependency */,
+			);
+			name = "CVS TimerTests";
+			productName = "CVS TimerTests";
+			productReference = C22F68001B9B4E05000EDB4A /* CVS TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C22F680A1B9B4E05000EDB4A /* CVS TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22F681A1B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS TimerUITests" */;
+			buildPhases = (
+				C22F68071B9B4E05000EDB4A /* Sources */,
+				C22F68081B9B4E05000EDB4A /* Frameworks */,
+				C22F68091B9B4E05000EDB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22F680D1B9B4E05000EDB4A /* PBXTargetDependency */,
+			);
+			name = "CVS TimerUITests";
+			productName = "CVS TimerUITests";
+			productReference = C22F680B1B9B4E05000EDB4A /* CVS TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22F67E71B9B4E04000EDB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Neal Milstein";
+				TargetAttributes = {
+					C22F67EE1B9B4E04000EDB4A = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					C22F67FF1B9B4E05000EDB4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C22F67EE1B9B4E04000EDB4A;
+					};
+					C22F680A1B9B4E05000EDB4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C22F67EE1B9B4E04000EDB4A;
+					};
+				};
+			};
+			buildConfigurationList = C22F67EA1B9B4E04000EDB4A /* Build configuration list for PBXProject "CVS Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22F67E61B9B4E04000EDB4A;
+			productRefGroup = C22F67F01B9B4E05000EDB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22F67EE1B9B4E04000EDB4A /* CVS Timer */,
+				C22F67FF1B9B4E05000EDB4A /* CVS TimerTests */,
+				C22F680A1B9B4E05000EDB4A /* CVS TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22F67ED1B9B4E04000EDB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24B7F8F1BEFC05B00ED6E75 /* Main.storyboard in Resources */,
+				C22F67F71B9B4E05000EDB4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F67FE1B9B4E05000EDB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F68091B9B4E05000EDB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22F67EB1B9B4E04000EDB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22982B81C557345009311C9 /* PreferencesViewController.swift in Sources */,
+				C22F68201B9CACB4000EDB4A /* PauseOverlayView.swift in Sources */,
+				C22F681E1B9C76E6000EDB4A /* PauseOverlayWindow.swift in Sources */,
+				C22F67F51B9B4E05000EDB4A /* PauseViewController.swift in Sources */,
+				C22F67F31B9B4E05000EDB4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F67FC1B9B4E05000EDB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22F68051B9B4E05000EDB4A /* CVS_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F68071B9B4E05000EDB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22F68101B9B4E05000EDB4A /* CVS_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C22F68021B9B4E05000EDB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22F67EE1B9B4E04000EDB4A /* CVS Timer */;
+			targetProxy = C22F68011B9B4E05000EDB4A /* PBXContainerItemProxy */;
+		};
+		C22F680D1B9B4E05000EDB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22F67EE1B9B4E04000EDB4A /* CVS Timer */;
+			targetProxy = C22F680C1B9B4E05000EDB4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24B7F8D1BEFC05B00ED6E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24B7F8E1BEFC05B00ED6E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22F68121B9B4E05000EDB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22F68131B9B4E05000EDB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C22F68151B9B4E05000EDB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C22F68161B9B4E05000EDB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C22F68181B9B4E05000EDB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS Timer.app/Contents/MacOS/CVS Timer";
+			};
+			name = Debug;
+		};
+		C22F68191B9B4E05000EDB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS Timer.app/Contents/MacOS/CVS Timer";
+			};
+			name = Release;
+		};
+		C22F681B1B9B4E05000EDB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CVS Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C22F681C1B9B4E05000EDB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CVS TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nealmilstein.CVS-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CVS Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22F67EA1B9B4E04000EDB4A /* Build configuration list for PBXProject "CVS Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F68121B9B4E05000EDB4A /* Debug */,
+				C22F68131B9B4E05000EDB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22F68141B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F68151B9B4E05000EDB4A /* Debug */,
+				C22F68161B9B4E05000EDB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22F68171B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F68181B9B4E05000EDB4A /* Debug */,
+				C22F68191B9B4E05000EDB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22F681A1B9B4E05000EDB4A /* Build configuration list for PBXNativeTarget "CVS TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F681B1B9B4E05000EDB4A /* Debug */,
+				C22F681C1B9B4E05000EDB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22F67E71B9B4E04000EDB4A /* Project object */;
+}
