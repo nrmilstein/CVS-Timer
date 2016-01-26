@@ -7,4 +7,6 @@ The app resides in a "C" icon on the status bar. You can set the time between br
 
 CVS Timer was inspired by [AntiRSI](http://antirsi.onnlucky.com/), an app designed to prevent Repetitive Strain Injury (RSI). I wanted a simpler app tailored more for eye strain (one that doesn't reset when it detects you're not using the mouse/keyboard), so I created this one.
 
+I have included a compiled .app in the repo for convenience, or you can open it yourself in XCode.
+
 License: GPLv3
