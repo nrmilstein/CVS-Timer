@@ -45,8 +45,8 @@ class PauseOverlayView : NSView {
   }
   
   func incrementProgressIndicator() {
-    let incrementVal = Double(pauseProgress.maxValue - pauseProgress.minValue) / Double(breakDuration)
-      * progressUpdateInterval
+    let incrementVal = Double(pauseProgress.maxValue - pauseProgress.minValue) /
+      Double(breakDuration) * progressUpdateInterval
     pauseProgress.incrementBy(incrementVal
       )
   }

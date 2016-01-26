@@ -7,7 +7,7 @@
 
 import Cocoa
 
-class PauseViewController: NSViewController {
+class PauseOverlayViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()

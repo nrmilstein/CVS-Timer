@@ -18,7 +18,6 @@ class PauseOverlayWindow : NSWindow {
       backgroundColor = NSColor.clearColor()
       alphaValue = 0.85
       level = Int(CGWindowLevelForKey(.FloatingWindowLevelKey))
-//      NSLog("Window init")
   }
 
   required init?(coder: NSCoder) {

@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Window Controller-->
+        <!--Pause Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController storyboardIdentifier="pauseWindowController" showSeguePresentationStyle="single" id="B8D-0N-5wS" sceneMemberID="viewController">
+                <windowController storyboardIdentifier="pauseWindowController" showSeguePresentationStyle="single" id="B8D-0N-5wS" userLabel="Pause Window Controller" sceneMemberID="viewController">
                     <window key="window" title="Pause Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="PauseOverlayWindow" customModule="CVS_Timer" customModuleProvider="target">
                         <windowCollectionBehavior key="collectionBehavior" moveToActiveSpace="YES"/>
                         <rect key="contentRect" x="196" y="240" width="300" height="300"/>
@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Window Controller-->
+        <!--Preferences Window Controller-->
         <scene sceneID="ZI5-ht-eHx">
             <objects>
-                <windowController showSeguePresentationStyle="single" id="Rie-zh-XyK" sceneMemberID="viewController">
+                <windowController showSeguePresentationStyle="single" id="Rie-zh-XyK" userLabel="Preferences Window Controller" customClass="PreferencesWindowController" customModule="CVS_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Preferences Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="NNw-sV-8A5">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <rect key="contentRect" x="0.0" y="386" width="514" height="184"/>
@@ -241,10 +241,10 @@
             </objects>
             <point key="canvasLocation" x="576" y="639"/>
         </scene>
-        <!--Pause View Controller-->
+        <!--Pause Overlay View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController showSeguePresentationStyle="single" id="XfG-lQ-9wD" customClass="PauseViewController" customModule="CVS_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController showSeguePresentationStyle="single" id="XfG-lQ-9wD" customClass="PauseOverlayViewController" customModule="CVS_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl" customClass="PauseOverlayView" customModule="CVS_Timer" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>

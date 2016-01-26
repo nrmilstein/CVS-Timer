@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		C22982B81C557345009311C9 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22982B71C557345009311C9 /* PreferencesViewController.swift */; };
 		C22F67F31B9B4E05000EDB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */; };
-		C22F67F51B9B4E05000EDB4A /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */; };
+		C22F67F51B9B4E05000EDB4A /* PauseOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F67F41B9B4E05000EDB4A /* PauseOverlayViewController.swift */; };
 		C22F67F71B9B4E05000EDB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22F67F61B9B4E05000EDB4A /* Assets.xcassets */; };
 		C22F68051B9B4E05000EDB4A /* CVS_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F68041B9B4E05000EDB4A /* CVS_TimerTests.swift */; };
 		C22F68101B9B4E05000EDB4A /* CVS_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F680F1B9B4E05000EDB4A /* CVS_TimerUITests.swift */; };
 		C22F681E1B9C76E6000EDB4A /* PauseOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */; };
 		C22F68201B9CACB4000EDB4A /* PauseOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */; };
 		C24B7F8F1BEFC05B00ED6E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B7F8D1BEFC05B00ED6E75 /* Main.storyboard */; };
+		C29522011C57892600ED5C57 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29522001C57892600ED5C57 /* PreferencesWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		C22982B71C557345009311C9 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		C22F67EF1B9B4E05000EDB4A /* CVS Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CVS Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		C22F67F41B9B4E05000EDB4A /* PauseOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseOverlayViewController.swift; sourceTree = "<group>"; };
 		C22F67F61B9B4E05000EDB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C22F67FB1B9B4E05000EDB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22F68001B9B4E05000EDB4A /* CVS TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,7 @@
 		C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseOverlayWindow.swift; sourceTree = "<group>"; };
 		C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseOverlayView.swift; sourceTree = "<group>"; };
 		C24B7F8E1BEFC05B00ED6E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C29522001C57892600ED5C57 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				C22F67F21B9B4E05000EDB4A /* AppDelegate.swift */,
 				C22F681D1B9C76E6000EDB4A /* PauseOverlayWindow.swift */,
-				C22F67F41B9B4E05000EDB4A /* PauseViewController.swift */,
+				C22F67F41B9B4E05000EDB4A /* PauseOverlayViewController.swift */,
 				C22F681F1B9CACB4000EDB4A /* PauseOverlayView.swift */,
+				C29522001C57892600ED5C57 /* PreferencesWindowController.swift */,
 				C22982B71C557345009311C9 /* PreferencesViewController.swift */,
 				C22F67F61B9B4E05000EDB4A /* Assets.xcassets */,
 				C24B7F8D1BEFC05B00ED6E75 /* Main.storyboard */,
@@ -265,10 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29522011C57892600ED5C57 /* PreferencesWindowController.swift in Sources */,
 				C22982B81C557345009311C9 /* PreferencesViewController.swift in Sources */,
 				C22F68201B9CACB4000EDB4A /* PauseOverlayView.swift in Sources */,
 				C22F681E1B9C76E6000EDB4A /* PauseOverlayWindow.swift in Sources */,
-				C22F67F51B9B4E05000EDB4A /* PauseViewController.swift in Sources */,
+				C22F67F51B9B4E05000EDB4A /* PauseOverlayViewController.swift in Sources */,
 				C22F67F31B9B4E05000EDB4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

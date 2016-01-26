@@ -27,11 +27,5 @@ class PreferencesViewController: NSViewController {
   }
   
   override func viewDidLoad() {
-//    NSTimer.scheduledTimerWithTimeInterval(
-//      1, target: self, selector: Selector("tick"), userInfo: nil, repeats: true)
   }
-  
-//  func tick() {
-//    print(breakDuration)
-//  }
 }
