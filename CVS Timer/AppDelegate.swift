@@ -79,7 +79,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
   
   private func getTimeBetweenBreaks() -> Int {
-    return standardUserDefaults.integerForKey("timeBetweenBreaks")
+    return standardUserDefaults.integerForKey("timeBetweenBreaks") * 60
   }
   
   func applicationWillTerminate(aNotification: NSNotification) {
