@@ -9,7 +9,9 @@ import Cocoa
 
 class PauseOverlayView : NSView {
   @IBOutlet weak var pauseProgress: NSProgressIndicator!
-  var progressTimerOptional: NSTimer?
+  var progressTimer: NSTimer?
+  
+  @IBOutlet weak var skipButton: NSButton!
   
   let progressUpdateInterval: Double = 0.03
   var breakDuration = 10
@@ -23,6 +25,14 @@ class PauseOverlayView : NSView {
     setNeedsDisplayInRect(NSRect(x: 0, y: 0, width: 100, height: 100))
   }
   
+  @IBAction func press(sender: NSButton) {
+    (NSApp.delegate as! AppDelegate).hidePauseWindow()
+  }
+  
+  override func awakeFromNib() {
+    skipButton.alphaValue = 0.9
+  }
+  
   override func drawRect(dirtyRect: NSRect) {
     self.layer!.backgroundColor = CGColorCreateGenericRGB(0, 0, 0, 1)
     self.layer!.cornerRadius = 15
@@ -30,17 +40,13 @@ class PauseOverlayView : NSView {
   
   func animateProgressIndicator() {
     breakDuration = NSUserDefaults.standardUserDefaults().integerForKey("breakDuration")
-    if let progressTimer = progressTimerOptional {
-      progressTimer.invalidate()
-    }
-    progressTimerOptional =  NSTimer.scheduledTimerWithTimeInterval(progressUpdateInterval,
+    progressTimer?.invalidate()
+    progressTimer =  NSTimer.scheduledTimerWithTimeInterval(progressUpdateInterval,
       target: self, selector: Selector("incrementProgressIndicator"), userInfo: nil, repeats: true)
   }
   
   func stopProgressIndicatorAnimation() {
-    if let progressTimer = progressTimerOptional {
-      progressTimer.invalidate()
-    }
+    progressTimer?.invalidate()
     pauseProgress.doubleValue = 0
   }
   

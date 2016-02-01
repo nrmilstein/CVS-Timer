@@ -8,6 +8,7 @@
 import Cocoa
 
 class PauseOverlayViewController: NSViewController {
+  @IBOutlet weak var skipButton: NSButton!
 
   override func viewDidLoad() {
     super.viewDidLoad()

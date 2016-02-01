@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   var pauseWindowController: NSWindowController!
   let standardUserDefaults = NSUserDefaults.standardUserDefaults()
   
-  var pauseTimerOptional : NSTimer?
+  var pauseTimer : NSTimer?
   var pauseTimerSetTime: NSDate = NSDate()
   
   func applicationWillFinishLaunching(notification: NSNotification) {
@@ -45,13 +45,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   
   func updateTimeBetweenBreaks() {
     let newTimeBetweenBreaks = getTimeBetweenBreaks()
-    if let pauseTimer = pauseTimerOptional {
+    if let pauseTimer = pauseTimer {
       if (pauseTimer.valid) {
         pauseTimer.fireDate = pauseTimerSetTime
           .dateByAddingTimeInterval(Double(newTimeBetweenBreaks))
       }
     } else {
-      pauseTimerOptional = NSTimer.scheduledTimerWithTimeInterval(
+      pauseTimer = NSTimer.scheduledTimerWithTimeInterval(
         Double(newTimeBetweenBreaks), target: self, selector: Selector("showPauseWindow"),
         userInfo: nil, repeats: false)
     }
@@ -66,14 +66,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   
   func hidePauseWindow() {
     pauseWindowController.close()
+    pauseTimer?.invalidate()
     
-    if let pauseTimer = pauseTimerOptional {
-      if (pauseTimer.valid) {
-        pauseTimer.invalidate()
-      }
-    }
     pauseTimerSetTime = NSDate()
-    pauseTimerOptional = NSTimer.scheduledTimerWithTimeInterval(
+    pauseTimer = NSTimer.scheduledTimerWithTimeInterval(
       Double(getTimeBetweenBreaks()), target: self,
       selector: Selector("showPauseWindow"), userInfo: nil, repeats: false)
   }
